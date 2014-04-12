@@ -453,6 +453,9 @@ It is possible to force the import of files which weren't downloaded using the
                         # here's where it will all start ...
                         continue
 
+                    if hasattr(model, 'name_' + lang):
+                        setattr(model, 'name_' + lang, names[0])
+
                     for name in names:
                         name = force_text(name)
                         if name == model.name:

@@ -41,6 +41,7 @@ setup(
         'six',
         'unidecode>=0.04.13',
         'django_autoslug',
+        'django-modeltranslation'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
