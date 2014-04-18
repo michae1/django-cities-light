@@ -1,7 +1,7 @@
 from modeltranslation.translator import translator, TranslationOptions
 from cities_light.models import City
 
-class NewsTranslationOptions(TranslationOptions):
+class CityTranslationOptions(TranslationOptions):
     fields = ('name',)
 
-translator.register(City, NewsTranslationOptions)
+translator.register(City, CityTranslationOptions)
