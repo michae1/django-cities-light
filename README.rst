@@ -6,13 +6,13 @@ just install app, django-modeltranslations,
 
 run::
 
-./manage.py schemamigration cities-light --auto
+./manage.py schemamigration cities_light --auto
 
 and::
 
-./manage.py migrate cities-light
+./manage.py migrate cities_light
 
-than::
+then::
 
 ./manage.py cities_light will import local names into django-modeltranslation fields
 
